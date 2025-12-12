@@ -338,8 +338,8 @@ function processBotResponse(input) {
 // Scroll Reveal Logic
 document.addEventListener('DOMContentLoaded', () => {
     const observerOptions = {
-        threshold: 0.1,
-        rootMargin: "0px 0px -50px 0px"
+        threshold: 0.05,
+        rootMargin: "0px"
     };
 
     const observer = new IntersectionObserver((entries) => {

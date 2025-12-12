@@ -132,8 +132,16 @@ h6 {
 /* Range Slider Customization */
 input[type=range] {
     -webkit-appearance: none;
-    appearance: none;
     background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+input[type=range]:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
 }
 
 input[type=range]::-webkit-slider-thumb {
